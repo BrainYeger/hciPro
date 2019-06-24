@@ -308,3 +308,6 @@ D:\2019春夏\人机交互\pro\hmi-pro\obj\Debug\VuforiaScripts.csproj.CoreCompi
 D:\2019春夏\人机交互\pro\hmi-pro\obj\Debug\VuforiaScripts.csproj.CopyComplete
 D:\2019春夏\人机交互\pro\hmi-pro\obj\Debug\VuforiaScripts.dll
 D:\2019春夏\人机交互\pro\hmi-pro\obj\Debug\VuforiaScripts.pdb
+E:\Unity\git\hciPro\obj\Debug\VuforiaScripts.csprojResolveAssemblyReference.cache
+E:\Unity\git\hciPro\obj\Debug\VuforiaScripts.dll
+E:\Unity\git\hciPro\obj\Debug\VuforiaScripts.pdb

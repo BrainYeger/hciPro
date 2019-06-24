@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-D:/2019春夏/人机交互/pro/hmi-pro/test.apk
+E:/Unity/git/hciPro/hciPro.apk
 SceneListBegin?
 Assets/Scenes/World/World.unity
 Assets/Scenes/Attack.unity
@@ -28,6 +28,7 @@ f41f6a3fe85a461098a1c450827b9a66 Assembly-CSharp.dll:Mapbox.Unity.Map.UpdateMapW
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Examples.ReverseGeocodeUserInput
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Unity.Map.TileProviders.RangeAroundTransformTileProvider
 3975e85b83b7f5d56eb5f88a9ee5aae9 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.TerrainFactoryBase
+a38e5c5cfff10cf81e55cd6976c6b51a Assembly-CSharp.dll:.GraphicExplosion
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 ba6ef9e2082e09d9399eaef28d94d812 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.SnapTerrainModifier
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Examples.AstronautDirections
@@ -36,6 +37,7 @@ c3a3572e43af691ece9d1180e73b89c4 Assembly-CSharp.dll:Mapbox.Unity.Location.Devic
 b6978e66c5e3e2cb9b5b4f047f01fac3 Assembly-CSharp.dll:Mapbox.Examples.POIPlacementScriptExample
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Factories.VectorTileFactory
 89d2c9019dc18bce3f4d02d01a1afefd Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.PrefabModifier
+156e9b404e508ccca1f71ac400b84868 Assembly-CSharp.dll:.PhysicalExplosion
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 5fc094978ce3e3591a7500ed380d854a UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -112,6 +114,7 @@ bc7929c5b6cab4174185754e71e4e1f1 Assembly-CSharp.dll:.ScriptablePalette
 06cc659aa32d52ea2ba49a67856d80ad Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureSideWallModifier
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Unity.Map.TileProviders.GlobeTileProvider
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Unity.Utilities.Runnable
+399b69a676c4460ccddf073e273de786 Assembly-CSharp.dll:.Hurt
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 06f0fef534ca4c1d6064fd77a26bf722 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 780e8f682b3221346c034a6712a0fd25 UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -259,6 +262,7 @@ ba6ef9e2082e09d9399eaef28d94d812 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Interfaces.VectorLayerVisualizer
 ba6ef9e2082e09d9399eaef28d94d812 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.UvModifier
+50dd94f66428cf611ce4b411ba5e989e Assembly-CSharp.dll:.ExplosionControl
 357cdc8e715baae445f08317aced8181 Assembly-CSharp.dll:.Droid
 563660a00e6e81cb62dbadd1cbc099dc Assembly-CSharp.dll:Mapbox.Examples.AstronautMouseController
 57218997c1c8facfc9c494649a7995ac Assembly-CSharp.dll:Mapbox.Examples.ChangeShadowDistance
@@ -292,7 +296,7 @@ e742d3bf2dcc9487d0e4714b37ab9560 Assembly-CSharp.dll:.Health
 d30406e93dfde99d69d2b1c0ea2559b1 Assembly-CSharp.dll:Mapbox.Unity.Location.AngleSmoothingNoOp
 510fefd6a544e16a3ffefa557ddcba39 Unity.TextMeshPro.dll:TMPro.PackageResourceImporterWindow
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.DefaultTrackableEventHandler
-8c24bb8c2b1c6c4572ec0feed1b5d2c9 Assembly-CSharp.dll:.DroidFactory
+e084f4bf7d380129430cf9fb73028ece Assembly-CSharp.dll:.DroidFactory
 1ca32ecd08c306d31036ac06d96d0f70 Assembly-CSharp.dll:Mapbox.Examples.SpawnOnGlobeExample
 aa82b3ce4c0c9b227036c0337315c5d3 Unity.TextMeshPro.dll:TMPro.TMP_FontAsset
 e51c09a4cc447f11db225afcd8e3e490 Unity.TextMeshPro.dll:TMPro.TMP_Settings
@@ -316,6 +320,7 @@ e9b1bb8625391eccd2ab11f9625b5536 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
+eb17ae820a8d14d49200e04de529935b Assembly-CSharp.dll:.CameraMove
 9dc48180017c4352a685d23ca5d33c3c Assembly-CSharp.dll:Mapbox.Unity.Utilities.Console
 d30406e93dfde99d69d2b1c0ea2559b1 Assembly-CSharp.dll:Mapbox.Unity.Location.AngleSmoothingEMA
 79c690a7a04380284d7886233794daaf Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.AddMonoBehavioursModifier
@@ -335,6 +340,7 @@ ba6ef9e2082e09d9399eaef28d94d812 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration
 df2ac1e01a196c636fe3dbc9b6ef1fe0 Assembly-CSharp.dll:Mapbox.Examples.Playground.ForwardGeocoderExample
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 82e649217a87767778e4985365512671 Assembly-CSharp.dll:Mapbox.Examples.CameraBillboard
+40138c3849e7459d6a67c04c3bc77563 Assembly-CSharp.dll:.light_control
 e90fe270b7729c2a22fa784bcd529d61 Assembly-CSharp.dll:Mapbox.Examples.HighlightBuildings
 bd8ad5a23d6a5b9a5d5b8c3bae014ffd Assembly-CSharp.dll:Mapbox.Examples.TextMeshOutline
 5555944b4b93f7c8fc871501aaef1399 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.TextureModifier
@@ -437,8 +443,3 @@ ffd8816d88b11c11d24af998cf7f948a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 0855a9d1fe3a81abf4812b7ac80389b6 Assembly-CSharp.dll:Mapbox.Unity.MeshGeneration.Modifiers.ModifierStack
-a38e5c5cfff10cf81e55cd6976c6b51a Assembly-CSharp.dll:.GraphicExplosion
-156e9b404e508ccca1f71ac400b84868 Assembly-CSharp.dll:.PhysicalExplosion
-50dd94f66428cf611ce4b411ba5e989e Assembly-CSharp.dll:.ExplosionControl
-40138c3849e7459d6a67c04c3bc77563 Assembly-CSharp.dll:.light_control
-399b69a676c4460ccddf073e273de786 Assembly-CSharp.dll:.Hurt

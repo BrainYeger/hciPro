@@ -10,6 +10,7 @@ public class DroidFactory : Singleton<DroidFactory>
     [SerializeField] private int startingDroids = 5;
     [SerializeField] private float minRange = 5.0f;
     [SerializeField] private float maxRange = 50.0f;
+    [SerializeField] private float offsetY = 2.0f;
 
     private List<Droid> liveDroids = new List<Droid>();
     private Droid selectedDroid;
@@ -52,7 +53,7 @@ public class DroidFactory : Singleton<DroidFactory>
         int index = Random.Range(0, availableDroids.Length);
         float x = player.transform.position.x + GenerateRange();
         float z = player.transform.position.z + GenerateRange();
-        float y = player.transform.position.y;
+        float y = player.transform.position.y + offsetY;
         liveDroids.Add(Instantiate(availableDroids[index], new Vector3(x, y, z), Quaternion.identity));
     }
 
